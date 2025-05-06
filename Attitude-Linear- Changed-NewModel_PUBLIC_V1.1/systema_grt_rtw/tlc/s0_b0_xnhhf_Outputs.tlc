@@ -1,0 +1,228 @@
+%implements s0_b0_xnhhf_Outputs "C"
+
+%function Outputs(block, system) Output
+%assign tlcOutputsFcnOfS0B0 = OpaqueTLCBlockFcn("Outputs", 0, 0, 0, 2)
+%assign tlcOutputsFcnOfS0B4 = OpaqueTLCBlockFcn("Outputs", 0, 4, 0, 2)
+%assign tlcOutputsFcnOfS0B5 = OpaqueTLCBlockFcn("Outputs", 0, 5, 0, 2)
+%assign tlcOutputsFcnOfS0B6 = OpaqueTLCBlockFcn("Outputs", 0, 6, 0, 2)
+%assign tlcOutputsFcnOfS0B8 = OpaqueTLCBlockFcn("Outputs", 0, 8, 0, 2)
+%assign tlcOutputsFcnOfS0B9 = OpaqueTLCBlockFcn("Outputs", 0, 9, 0, 2)
+%assign tlcOutputsFcnOfS0B10 = OpaqueTLCBlockFcn("Outputs", 0, 10, 0, 2)
+%assign tlcOutputsFcnOfS0B11 = OpaqueTLCBlockFcn("Outputs", 0, 11, 0, 2)
+%assign tlcOutputsFcnOfS0B12 = OpaqueTLCBlockFcn("Outputs", 0, 12, 0, 2)
+%assign tlcOutputsFcnOfS0B13 = OpaqueTLCBlockFcn("Outputs", 0, 13, 0, 2)
+%assign tlcOutputsFcnOfS0B14 = OpaqueTLCBlockFcn("Outputs", 0, 14, 0, 2)
+%assign tlcOutputsFcnOfS0B15 = OpaqueTLCBlockFcn("Outputs", 0, 15, 0, 2)
+%assign tlcOutputsFcnOfS0B16 = OpaqueTLCBlockFcn("Outputs", 0, 16, 0, 2)
+%assign tlcOutputsFcnOfS0B17 = OpaqueTLCBlockFcn("Outputs", 0, 17, 0, 2)
+%assign tlcOutputsFcnOfS0B18 = OpaqueTLCBlockFcn("Outputs", 0, 18, 0, 2)
+%assign tlcOutputsFcnOfS0B19 = OpaqueTLCBlockFcn("Outputs", 0, 19, 0, 2)
+%assign tlcOutputsFcnOfS0B20 = OpaqueTLCBlockFcn("Outputs", 0, 20, 0, 2)
+%assign tlcOutputsFcnOfS0B21 = OpaqueTLCBlockFcn("Outputs", 0, 21, 0, 2)
+%assign tlcOutputsFcnOfS0B22 = OpaqueTLCBlockFcn("Outputs", 0, 22, 0, 2)
+%assign tlcOutputsFcnOfS0B23 = OpaqueTLCBlockFcn("Outputs", 0, 23, 0, 2)
+%assign tlcOutputsFcnOfS0B24 = OpaqueTLCBlockFcn("Outputs", 0, 24, 0, 2)
+%assign tlcOutputsFcnOfS0B25 = OpaqueTLCBlockFcn("Outputs", 0, 25, 0, 2)
+%assign tlcOutputsFcnOfS0B26 = OpaqueTLCBlockFcn("Outputs", 0, 26, 0, 2)
+%assign tlcOutputsFcnOfS0B27 = OpaqueTLCBlockFcn("Outputs", 0, 27, 0, 2)
+%assign tlcOutputsFcnOfS0B28 = OpaqueTLCBlockFcn("Outputs", 0, 28, 0, 2)
+%assign tlcOutputsFcnOfS0B29 = OpaqueTLCBlockFcn("Outputs", 0, 29, 0, 2)
+%assign tlcOutputsFcnOfS0B30 = OpaqueTLCBlockFcn("Outputs", 0, 30, 0, 2)
+%assign tlcOutputsFcnOfS0B31 = OpaqueTLCBlockFcn("Outputs", 0, 31, 0, 2)
+%assign tlcOutputsFcnOfS0B32 = OpaqueTLCBlockFcn("Outputs", 0, 32, 0, 2)
+%assign tlcOutputsFcnOfS0B33 = OpaqueTLCBlockFcn("Outputs", 0, 33, 0, 2)
+%assign tlcOutputsFcnOfS0B34 = OpaqueTLCBlockFcn("Outputs", 0, 34, 0, 2)
+%assign tlcOutputsFcnOfS0B35 = OpaqueTLCBlockFcn("Outputs", 0, 35, 0, 2)
+%assign tlcOutputsFcnOfS0B36 = OpaqueTLCBlockFcn("Outputs", 0, 36, 0, 2)
+%assign tlcOutputsFcnOfS0B37 = OpaqueTLCBlockFcn("Outputs", 0, 37, 0, 2)
+%assign tlcOutputsFcnOfS0B38 = OpaqueTLCBlockFcn("Outputs", 0, 38, 0, 2)
+%assign tlcOutputsFcnOfS0B39 = OpaqueTLCBlockFcn("Outputs", 0, 39, 0, 2)
+%assign tlcOutputsFcnOfS0B40 = OpaqueTLCBlockFcn("Outputs", 0, 40, 0, 2)
+%assign tlcOutputsFcnOfS0B41 = OpaqueTLCBlockFcn("Outputs", 0, 41, 0, 2)
+%assign tlcOutputsFcnOfS0B42 = OpaqueTLCBlockFcn("Outputs", 0, 42, 0, 2)
+%assign tlcOutputsFcnOfS0B43 = OpaqueTLCBlockFcn("Outputs", 0, 43, 0, 2)
+%assign tlcOutputsFcnOfS0B44 = OpaqueTLCBlockFcn("Outputs", 0, 44, 0, 2)
+%assign tlcOutputsFcnOfS0B45 = OpaqueTLCBlockFcn("Outputs", 0, 45, 0, 2)
+%assign tlcOutputsFcnOfS0B46 = OpaqueTLCBlockFcn("Outputs", 0, 46, 0, 2)
+%assign tlcOutputsFcnOfS0B47 = OpaqueTLCBlockFcn("Outputs", 0, 47, 0, 2)
+%assign tlcOutputsFcnOfS0B48 = OpaqueTLCBlockFcn("Outputs", 0, 48, 0, 2)
+%assign tlcOutputsFcnOfS0B49 = OpaqueTLCBlockFcn("Outputs", 0, 49, 0, 2)
+%assign tlcOutputsFcnOfS0B50 = OpaqueTLCBlockFcn("Outputs", 0, 50, 0, 2)
+%assign tlcOutputsFcnOfS0B51 = OpaqueTLCBlockFcn("Outputs", 0, 51, 0, 2)
+%assign tlcOutputsFcnOfS0B52 = OpaqueTLCBlockFcn("Outputs", 0, 52, 0, 2)
+%assign tlcOutputsFcnOfS0B53 = OpaqueTLCBlockFcn("Outputs", 0, 53, 0, 2)
+%assign tlcOutputsFcnOfS0B54 = OpaqueTLCBlockFcn("Outputs", 0, 54, 0, 2)
+%assign tlcOutputsFcnOfS0B55 = OpaqueTLCBlockFcn("Outputs", 0, 55, 0, 2)
+%assign tlcOutputsFcnOfS0B56 = OpaqueTLCBlockFcn("Outputs", 0, 56, 0, 2)
+%assign tlcOutputsFcnOfS0B57 = OpaqueTLCBlockFcn("Outputs", 0, 57, 0, 2)
+%<SLibCG_TrackContStates(0)>\
+%<SLibCG_TrackParam(0)>\
+%<SLibCG_TrackBlockIO(0)>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* Constant: '<S5>/roll [rad]' */
+    systema_B.rollrad = systema_P.rollrad_Value;
+    /* Constant: '<S5>/dot roll [rad//s]' */
+    systema_B.dotrollrads = systema_P.dotrollrads_Value;
+    /* Constant: '<S5>/pitch [rad]' */
+    systema_B.pitchrad = systema_P.pitchrad_Value;
+    /* Constant: '<S5>/dot pitch [rad//s]' */
+    systema_B.dotpitchrads = systema_P.dotpitchrads_Value;
+    /* Constant: '<S5>/yaw [rad]' */
+    systema_B.yawrad = systema_P.yawrad_Value;
+    /* Constant: '<S5>/dot yaw [rad//s]' */
+    systema_B.dotyawrads = systema_P.dotyawrads_Value;
+    /* Constant: '<S5>/z [m]' */
+    systema_B.zm = systema_P.zm_Value;
+    /* Constant: '<S5>/dot z  [m//s]' */
+    systema_B.dotzms = systema_P.dotzms_Value;
+    /* Constant: '<S5>/x [m]' */
+    systema_B.xm = systema_P.xm_Value;
+    /* Constant: '<S5>/dot x [m//s]' */
+    systema_B.dotxms = systema_P.dotxms_Value;
+    /* Constant: '<S5>/y [m]' */
+    systema_B.ym = systema_P.ym_Value;
+    /* Constant: '<S5>/dot y [m//s]' */
+    systema_B.dotyms = systema_P.dotyms_Value;
+}
+%<tlcOutputsFcnOfS0B0>\
+/* RateTransition: '<S10>/Roll Rate Transition' */
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    systema_B.RollRateTransition = systema_B.Integrator[0];
+    /* RateTransition: '<S10>/Pitch Rate Transition' */
+    systema_B.PitchRateTransition = systema_B.Integrator[2];
+    /* RateTransition: '<S10>/Z Rate Transition' */
+    systema_B.ZRateTransition = systema_B.Integrator[6];
+}
+/* End of RateTransition: '<S10>/Roll Rate Transition' */
+
+/* Integrator: '<S3>/Integrator2' */
+systema_B.Integrator2 = systema_X.Integrator2_CSTATE;
+/* Integrator: '<S3>/Integrator1' */
+systema_B.estdotz = systema_X.Integrator1_CSTATE;
+%<tlcOutputsFcnOfS0B4>\
+%<tlcOutputsFcnOfS0B5>\
+/* RateTransition: '<S11>/Rate Transition1' */
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    systema_B.RateTransition1 = systema_B.U1;
+}
+/* End of RateTransition: '<S11>/Rate Transition1' */
+%<tlcOutputsFcnOfS0B6>\
+%<tlcOutputsFcnOfS0B8>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+%<tlcOutputsFcnOfS0B9>\
+%<tlcOutputsFcnOfS0B10>\
+%<tlcOutputsFcnOfS0B11>\
+%<tlcOutputsFcnOfS0B12>\
+%<tlcOutputsFcnOfS0B13>\
+%<tlcOutputsFcnOfS0B14>\
+}
+%<tlcOutputsFcnOfS0B15>\
+%<tlcOutputsFcnOfS0B16>\
+%<tlcOutputsFcnOfS0B17>\
+%<tlcOutputsFcnOfS0B18>\
+%<tlcOutputsFcnOfS0B19>\
+%<tlcOutputsFcnOfS0B20>\
+%<tlcOutputsFcnOfS0B21>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+%<tlcOutputsFcnOfS0B22>\
+%<tlcOutputsFcnOfS0B23>\
+%<tlcOutputsFcnOfS0B24>\
+%<tlcOutputsFcnOfS0B25>\
+%<tlcOutputsFcnOfS0B26>\
+%<tlcOutputsFcnOfS0B27>\
+%<tlcOutputsFcnOfS0B28>\
+%<tlcOutputsFcnOfS0B29>\
+%<tlcOutputsFcnOfS0B30>\
+%<tlcOutputsFcnOfS0B31>\
+%<tlcOutputsFcnOfS0B32>\
+%<tlcOutputsFcnOfS0B33>\
+%<tlcOutputsFcnOfS0B34>\
+%<tlcOutputsFcnOfS0B35>\
+%<tlcOutputsFcnOfS0B36>\
+%<tlcOutputsFcnOfS0B37>\
+%<tlcOutputsFcnOfS0B38>\
+%<tlcOutputsFcnOfS0B39>\
+%<tlcOutputsFcnOfS0B40>\
+%<tlcOutputsFcnOfS0B41>\
+%<tlcOutputsFcnOfS0B42>\
+%<tlcOutputsFcnOfS0B43>\
+%<tlcOutputsFcnOfS0B44>\
+%<tlcOutputsFcnOfS0B45>\
+%<tlcOutputsFcnOfS0B46>\
+%<tlcOutputsFcnOfS0B47>\
+%<tlcOutputsFcnOfS0B48>\
+%<tlcOutputsFcnOfS0B49>\
+}
+%<tlcOutputsFcnOfS0B50>\
+%<tlcOutputsFcnOfS0B51>\
+%<tlcOutputsFcnOfS0B52>\
+%<tlcOutputsFcnOfS0B53>\
+%<tlcOutputsFcnOfS0B54>\
+%<tlcOutputsFcnOfS0B55>\
+/* Saturate: '<S6>/Saturation' */
+u = systema_B.U2bin[0];
+u_0 = systema_P.Saturation_LowerSat;
+u_1 = systema_P.Saturation_UpperSat;
+if (u >= u_1) {
+    u = u_1;
+} else {
+    if (u <= u_0) {
+        u = u_0;
+    }
+}
+systema_B.Saturation[0] = u;
+u = systema_B.U2bin[1];
+u_0 = systema_P.Saturation_LowerSat;
+u_1 = systema_P.Saturation_UpperSat;
+if (u >= u_1) {
+    u = u_1;
+} else {
+    if (u <= u_0) {
+        u = u_0;
+    }
+}
+systema_B.Saturation[1] = u;
+u = systema_B.U2bin[2];
+u_0 = systema_P.Saturation_LowerSat;
+u_1 = systema_P.Saturation_UpperSat;
+if (u >= u_1) {
+    u = u_1;
+} else {
+    if (u <= u_0) {
+        u = u_0;
+    }
+}
+systema_B.Saturation[2] = u;
+u = systema_B.U2bin[3];
+u_0 = systema_P.Saturation_LowerSat;
+u_1 = systema_P.Saturation_UpperSat;
+if (u >= u_1) {
+    u = u_1;
+} else {
+    if (u <= u_0) {
+        u = u_0;
+    }
+}
+systema_B.Saturation[3] = u;
+/* End of Saturate: '<S6>/Saturation' */
+%<tlcOutputsFcnOfS0B56>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+%<tlcOutputsFcnOfS0B57>\
+}
+%<SLibInsertSolverResetCode()>\
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Outputs(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 2, fcnProtoType)>
+
+%assign localVarDecl = ""
+%openfile localVarDecl
+real_T u;
+real_T u_0;
+real_T u_1;
+
+%closefile localVarDecl
+%<LibSetSystemField(system, "CachedOutputLocalVars", localVarDecl)>
+%endfunction

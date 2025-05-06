@@ -1,0 +1,28 @@
+%implements s0_b0_xnhhf_InitializeConditions "C"
+
+%function InitializeConditions(block, system) Output
+%assign tlcInitializeConditionsFcnOfS0B0 = OpaqueTLCBlockFcn("InitializeConditions", 0, 0, 0, 1)
+%assign tlcInitializeConditionsFcnOfS0B51 = OpaqueTLCBlockFcn("InitializeConditions", 0, 51, 0, 1)
+%assign tlcInitializeConditionsFcnOfS0B52 = OpaqueTLCBlockFcn("InitializeConditions", 0, 52, 0, 1)
+%assign tlcInitializeConditionsFcnOfS0B53 = OpaqueTLCBlockFcn("InitializeConditions", 0, 53, 0, 1)
+%assign tlcInitializeConditionsFcnOfS0B54 = OpaqueTLCBlockFcn("InitializeConditions", 0, 54, 0, 1)
+%<SLibCG_TrackContStates(0)>\
+%<SLibCG_TrackParam(0)>\
+%<SLibInsertAsyncTaskInitializeCode(system)>
+%<SLibWriteMachineInitialize()>
+%<tlcInitializeConditionsFcnOfS0B0>\
+/* InitializeConditions for Integrator: '<S3>/Integrator2' */
+systema_X.Integrator2_CSTATE = systema_P.Integrator2_IC;
+/* InitializeConditions for Integrator: '<S3>/Integrator1' */
+systema_X.Integrator1_CSTATE = systema_P.Integrator1_IC;
+%<tlcInitializeConditionsFcnOfS0B51>\
+%<tlcInitializeConditionsFcnOfS0B52>\
+%<tlcInitializeConditionsFcnOfS0B53>\
+%<tlcInitializeConditionsFcnOfS0B54>\
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void InitializeConditions(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 1, fcnProtoType)>
+%endfunction

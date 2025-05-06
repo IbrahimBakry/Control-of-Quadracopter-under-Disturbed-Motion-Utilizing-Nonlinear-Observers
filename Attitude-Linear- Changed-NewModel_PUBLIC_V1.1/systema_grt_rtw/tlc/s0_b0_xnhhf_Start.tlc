@@ -1,0 +1,114 @@
+%implements s0_b0_xnhhf_Start "C"
+
+%function Start(block, system) Output
+%assign tlcStartFcnOfS0B9 = OpaqueTLCBlockFcn("Start", 0, 9, 0, 0)
+%assign tlcStartFcnOfS0B10 = OpaqueTLCBlockFcn("Start", 0, 10, 0, 0)
+%assign tlcStartFcnOfS0B11 = OpaqueTLCBlockFcn("Start", 0, 11, 0, 0)
+%assign tlcStartFcnOfS0B12 = OpaqueTLCBlockFcn("Start", 0, 12, 0, 0)
+%assign tlcStartFcnOfS0B13 = OpaqueTLCBlockFcn("Start", 0, 13, 0, 0)
+%assign tlcStartFcnOfS0B14 = OpaqueTLCBlockFcn("Start", 0, 14, 0, 0)
+%assign tlcStartFcnOfS0B15 = OpaqueTLCBlockFcn("Start", 0, 15, 0, 0)
+%assign tlcStartFcnOfS0B16 = OpaqueTLCBlockFcn("Start", 0, 16, 0, 0)
+%assign tlcStartFcnOfS0B17 = OpaqueTLCBlockFcn("Start", 0, 17, 0, 0)
+%assign tlcStartFcnOfS0B18 = OpaqueTLCBlockFcn("Start", 0, 18, 0, 0)
+%assign tlcStartFcnOfS0B22 = OpaqueTLCBlockFcn("Start", 0, 22, 0, 0)
+%assign tlcStartFcnOfS0B23 = OpaqueTLCBlockFcn("Start", 0, 23, 0, 0)
+%assign tlcStartFcnOfS0B24 = OpaqueTLCBlockFcn("Start", 0, 24, 0, 0)
+%assign tlcStartFcnOfS0B25 = OpaqueTLCBlockFcn("Start", 0, 25, 0, 0)
+%assign tlcStartFcnOfS0B26 = OpaqueTLCBlockFcn("Start", 0, 26, 0, 0)
+%assign tlcStartFcnOfS0B27 = OpaqueTLCBlockFcn("Start", 0, 27, 0, 0)
+%assign tlcStartFcnOfS0B28 = OpaqueTLCBlockFcn("Start", 0, 28, 0, 0)
+%assign tlcStartFcnOfS0B29 = OpaqueTLCBlockFcn("Start", 0, 29, 0, 0)
+%assign tlcStartFcnOfS0B30 = OpaqueTLCBlockFcn("Start", 0, 30, 0, 0)
+%assign tlcStartFcnOfS0B31 = OpaqueTLCBlockFcn("Start", 0, 31, 0, 0)
+%assign tlcStartFcnOfS0B32 = OpaqueTLCBlockFcn("Start", 0, 32, 0, 0)
+%assign tlcStartFcnOfS0B33 = OpaqueTLCBlockFcn("Start", 0, 33, 0, 0)
+%assign tlcStartFcnOfS0B34 = OpaqueTLCBlockFcn("Start", 0, 34, 0, 0)
+%assign tlcStartFcnOfS0B35 = OpaqueTLCBlockFcn("Start", 0, 35, 0, 0)
+%assign tlcStartFcnOfS0B36 = OpaqueTLCBlockFcn("Start", 0, 36, 0, 0)
+%assign tlcStartFcnOfS0B37 = OpaqueTLCBlockFcn("Start", 0, 37, 0, 0)
+%assign tlcStartFcnOfS0B38 = OpaqueTLCBlockFcn("Start", 0, 38, 0, 0)
+%assign tlcStartFcnOfS0B39 = OpaqueTLCBlockFcn("Start", 0, 39, 0, 0)
+%assign tlcStartFcnOfS0B40 = OpaqueTLCBlockFcn("Start", 0, 40, 0, 0)
+%assign tlcStartFcnOfS0B41 = OpaqueTLCBlockFcn("Start", 0, 41, 0, 0)
+%assign tlcStartFcnOfS0B42 = OpaqueTLCBlockFcn("Start", 0, 42, 0, 0)
+%assign tlcStartFcnOfS0B43 = OpaqueTLCBlockFcn("Start", 0, 43, 0, 0)
+%assign tlcStartFcnOfS0B44 = OpaqueTLCBlockFcn("Start", 0, 44, 0, 0)
+%assign tlcStartFcnOfS0B45 = OpaqueTLCBlockFcn("Start", 0, 45, 0, 0)
+%assign tlcStartFcnOfS0B46 = OpaqueTLCBlockFcn("Start", 0, 46, 0, 0)
+%assign tlcStartFcnOfS0B47 = OpaqueTLCBlockFcn("Start", 0, 47, 0, 0)
+%assign tlcStartFcnOfS0B48 = OpaqueTLCBlockFcn("Start", 0, 48, 0, 0)
+%assign tlcStartFcnOfS0B49 = OpaqueTLCBlockFcn("Start", 0, 49, 0, 0)
+%assign tlcStartFcnOfS0B57 = OpaqueTLCBlockFcn("Start", 0, 57, 0, 0)
+%<SLibCG_TrackParam(0)>\
+%<SLibCG_TrackBlockIO(0)>\
+/* Start for Constant: '<S5>/roll [rad]' */
+systema_B.rollrad = systema_P.rollrad_Value;
+/* Start for Constant: '<S5>/dot roll [rad//s]' */
+systema_B.dotrollrads = systema_P.dotrollrads_Value;
+/* Start for Constant: '<S5>/pitch [rad]' */
+systema_B.pitchrad = systema_P.pitchrad_Value;
+/* Start for Constant: '<S5>/dot pitch [rad//s]' */
+systema_B.dotpitchrads = systema_P.dotpitchrads_Value;
+/* Start for Constant: '<S5>/yaw [rad]' */
+systema_B.yawrad = systema_P.yawrad_Value;
+/* Start for Constant: '<S5>/dot yaw [rad//s]' */
+systema_B.dotyawrads = systema_P.dotyawrads_Value;
+/* Start for Constant: '<S5>/z [m]' */
+systema_B.zm = systema_P.zm_Value;
+/* Start for Constant: '<S5>/dot z  [m//s]' */
+systema_B.dotzms = systema_P.dotzms_Value;
+/* Start for Constant: '<S5>/x [m]' */
+systema_B.xm = systema_P.xm_Value;
+/* Start for Constant: '<S5>/dot x [m//s]' */
+systema_B.dotxms = systema_P.dotxms_Value;
+/* Start for Constant: '<S5>/y [m]' */
+systema_B.ym = systema_P.ym_Value;
+/* Start for Constant: '<S5>/dot y [m//s]' */
+systema_B.dotyms = systema_P.dotyms_Value;
+%<tlcStartFcnOfS0B9>\
+%<tlcStartFcnOfS0B10>\
+%<tlcStartFcnOfS0B11>\
+%<tlcStartFcnOfS0B12>\
+%<tlcStartFcnOfS0B13>\
+%<tlcStartFcnOfS0B14>\
+%<tlcStartFcnOfS0B15>\
+%<tlcStartFcnOfS0B16>\
+%<tlcStartFcnOfS0B17>\
+%<tlcStartFcnOfS0B18>\
+%<tlcStartFcnOfS0B22>\
+%<tlcStartFcnOfS0B23>\
+%<tlcStartFcnOfS0B24>\
+%<tlcStartFcnOfS0B25>\
+%<tlcStartFcnOfS0B26>\
+%<tlcStartFcnOfS0B27>\
+%<tlcStartFcnOfS0B28>\
+%<tlcStartFcnOfS0B29>\
+%<tlcStartFcnOfS0B30>\
+%<tlcStartFcnOfS0B31>\
+%<tlcStartFcnOfS0B32>\
+%<tlcStartFcnOfS0B33>\
+%<tlcStartFcnOfS0B34>\
+%<tlcStartFcnOfS0B35>\
+%<tlcStartFcnOfS0B36>\
+%<tlcStartFcnOfS0B37>\
+%<tlcStartFcnOfS0B38>\
+%<tlcStartFcnOfS0B39>\
+%<tlcStartFcnOfS0B40>\
+%<tlcStartFcnOfS0B41>\
+%<tlcStartFcnOfS0B42>\
+%<tlcStartFcnOfS0B43>\
+%<tlcStartFcnOfS0B44>\
+%<tlcStartFcnOfS0B45>\
+%<tlcStartFcnOfS0B46>\
+%<tlcStartFcnOfS0B47>\
+%<tlcStartFcnOfS0B48>\
+%<tlcStartFcnOfS0B49>\
+%<tlcStartFcnOfS0B57>\
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Start(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 0, fcnProtoType)>
+%endfunction

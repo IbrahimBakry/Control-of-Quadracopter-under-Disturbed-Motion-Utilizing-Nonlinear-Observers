@@ -5,7 +5,7 @@ This research is a Bc.S. graduation project explores a novel approach to rejecti
 
 ### **Key Contributions** 🎯  
 1. **Model Adaptation**:  
-   - Built upon the **OS4 Quadrotor model** from EPFL, modifying it for our control system.  
+   - Built upon the basic **OS4 Quadrotor model** from EPFL, modifying it for our control system.  
    - Used **nonlinear dynamic inversion** to simplify PID controller design without linearizing the model.  
 
 2. **Observer Design**:  

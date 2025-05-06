@@ -1,0 +1,28 @@
+%implements s1_b0_tzo4g_Update "C"
+
+%function Update(block, system) Output
+%assign tlcUpdateFcnOfS1B0 = OpaqueTLCBlockFcn("Update", 1, 0, 1, 3)
+%assign tlcUpdateFcnOfS1B1 = OpaqueTLCBlockFcn("Update", 1, 1, 1, 3)
+%assign tlcUpdateFcnOfS1B2 = OpaqueTLCBlockFcn("Update", 1, 2, 1, 3)
+%assign tlcUpdateFcnOfS1B3 = OpaqueTLCBlockFcn("Update", 1, 3, 1, 3)
+%assign tlcUpdateFcnOfS1B4 = OpaqueTLCBlockFcn("Update", 1, 4, 1, 3)
+%assign tlcUpdateFcnOfS1B51 = OpaqueTLCBlockFcn("Update", 1, 51, 1, 3)
+%assign tlcUpdateFcnOfS1B52 = OpaqueTLCBlockFcn("Update", 1, 52, 1, 3)
+%assign tlcUpdateFcnOfS1B53 = OpaqueTLCBlockFcn("Update", 1, 53, 1, 3)
+%assign tlcUpdateFcnOfS1B54 = OpaqueTLCBlockFcn("Update", 1, 54, 1, 3)
+%<tlcUpdateFcnOfS1B0>\
+%<tlcUpdateFcnOfS1B1>\
+%<tlcUpdateFcnOfS1B2>\
+%<tlcUpdateFcnOfS1B3>\
+%<tlcUpdateFcnOfS1B4>\
+%<tlcUpdateFcnOfS1B51>\
+%<tlcUpdateFcnOfS1B52>\
+%<tlcUpdateFcnOfS1B53>\
+%<tlcUpdateFcnOfS1B54>\
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Update(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(1, 3, fcnProtoType)>
+%endfunction

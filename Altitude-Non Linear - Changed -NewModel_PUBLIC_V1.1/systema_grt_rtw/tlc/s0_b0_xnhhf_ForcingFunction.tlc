@@ -1,0 +1,34 @@
+%implements s0_b0_xnhhf_ForcingFunction "C"
+
+%function ForcingFunction(block, system) Output
+%assign tlcForcingFunctionFcnOfS0B0 = OpaqueTLCBlockFcn("ForcingFunction", 0, 0, 0, 5)
+%assign tlcForcingFunctionFcnOfS0B51 = OpaqueTLCBlockFcn("ForcingFunction", 0, 51, 0, 5)
+%assign tlcForcingFunctionFcnOfS0B52 = OpaqueTLCBlockFcn("ForcingFunction", 0, 52, 0, 5)
+%assign tlcForcingFunctionFcnOfS0B53 = OpaqueTLCBlockFcn("ForcingFunction", 0, 53, 0, 5)
+%assign tlcForcingFunctionFcnOfS0B54 = OpaqueTLCBlockFcn("ForcingFunction", 0, 54, 0, 5)
+%<SLibCG_TrackContStatesDerivative(0)>\
+_rtXdot = %<(SLibCG_SE(SLibGetContStatesDerivativeStructPtr()))>;
+%<SLibCG_TrackBlockIO(0)>\
+%<tlcForcingFunctionFcnOfS0B0>\
+/* ForcingFunction for Integrator: '<S3>/Integrator2' */
+_rtXdot->Integrator2_CSTATE = systema_B.estdotz;
+/* ForcingFunction for Integrator: '<S3>/Integrator1' */
+_rtXdot->Integrator1_CSTATE = systema_B.Observer;
+%<tlcForcingFunctionFcnOfS0B51>\
+%<tlcForcingFunctionFcnOfS0B52>\
+%<tlcForcingFunctionFcnOfS0B53>\
+%<tlcForcingFunctionFcnOfS0B54>\
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void ForcingFunction(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 5, fcnProtoType)>
+
+%assign localVarDecl = ""
+%openfile localVarDecl
+XDot_systema_T *_rtXdot;
+
+%closefile localVarDecl
+%<LibSetSystemField(system, "CachedForcingFunctionLocalVars", localVarDecl)>
+%endfunction

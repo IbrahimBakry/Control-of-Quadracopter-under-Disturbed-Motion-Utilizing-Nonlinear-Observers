@@ -1,0 +1,106 @@
+%implements s1_b0_tzo4g_Start "C"
+
+%function Start(block, system) Output
+%assign tlcStartFcnOfS1B1 = OpaqueTLCBlockFcn("Start", 1, 1, 1, 0)
+%assign tlcStartFcnOfS1B2 = OpaqueTLCBlockFcn("Start", 1, 2, 1, 0)
+%assign tlcStartFcnOfS1B3 = OpaqueTLCBlockFcn("Start", 1, 3, 1, 0)
+%assign tlcStartFcnOfS1B4 = OpaqueTLCBlockFcn("Start", 1, 4, 1, 0)
+%assign tlcStartFcnOfS1B15 = OpaqueTLCBlockFcn("Start", 1, 15, 1, 0)
+%assign tlcStartFcnOfS1B16 = OpaqueTLCBlockFcn("Start", 1, 16, 1, 0)
+%assign tlcStartFcnOfS1B17 = OpaqueTLCBlockFcn("Start", 1, 17, 1, 0)
+%assign tlcStartFcnOfS1B18 = OpaqueTLCBlockFcn("Start", 1, 18, 1, 0)
+%assign tlcStartFcnOfS1B19 = OpaqueTLCBlockFcn("Start", 1, 19, 1, 0)
+%assign tlcStartFcnOfS1B20 = OpaqueTLCBlockFcn("Start", 1, 20, 1, 0)
+%assign tlcStartFcnOfS1B21 = OpaqueTLCBlockFcn("Start", 1, 21, 1, 0)
+%assign tlcStartFcnOfS1B22 = OpaqueTLCBlockFcn("Start", 1, 22, 1, 0)
+%assign tlcStartFcnOfS1B23 = OpaqueTLCBlockFcn("Start", 1, 23, 1, 0)
+%assign tlcStartFcnOfS1B24 = OpaqueTLCBlockFcn("Start", 1, 24, 1, 0)
+%assign tlcStartFcnOfS1B25 = OpaqueTLCBlockFcn("Start", 1, 25, 1, 0)
+%assign tlcStartFcnOfS1B26 = OpaqueTLCBlockFcn("Start", 1, 26, 1, 0)
+%assign tlcStartFcnOfS1B27 = OpaqueTLCBlockFcn("Start", 1, 27, 1, 0)
+%assign tlcStartFcnOfS1B28 = OpaqueTLCBlockFcn("Start", 1, 28, 1, 0)
+%assign tlcStartFcnOfS1B29 = OpaqueTLCBlockFcn("Start", 1, 29, 1, 0)
+%assign tlcStartFcnOfS1B30 = OpaqueTLCBlockFcn("Start", 1, 30, 1, 0)
+%assign tlcStartFcnOfS1B31 = OpaqueTLCBlockFcn("Start", 1, 31, 1, 0)
+%assign tlcStartFcnOfS1B32 = OpaqueTLCBlockFcn("Start", 1, 32, 1, 0)
+%assign tlcStartFcnOfS1B33 = OpaqueTLCBlockFcn("Start", 1, 33, 1, 0)
+%assign tlcStartFcnOfS1B34 = OpaqueTLCBlockFcn("Start", 1, 34, 1, 0)
+%assign tlcStartFcnOfS1B35 = OpaqueTLCBlockFcn("Start", 1, 35, 1, 0)
+%assign tlcStartFcnOfS1B36 = OpaqueTLCBlockFcn("Start", 1, 36, 1, 0)
+%assign tlcStartFcnOfS1B37 = OpaqueTLCBlockFcn("Start", 1, 37, 1, 0)
+%assign tlcStartFcnOfS1B38 = OpaqueTLCBlockFcn("Start", 1, 38, 1, 0)
+%assign tlcStartFcnOfS1B39 = OpaqueTLCBlockFcn("Start", 1, 39, 1, 0)
+%assign tlcStartFcnOfS1B40 = OpaqueTLCBlockFcn("Start", 1, 40, 1, 0)
+%assign tlcStartFcnOfS1B41 = OpaqueTLCBlockFcn("Start", 1, 41, 1, 0)
+%assign tlcStartFcnOfS1B42 = OpaqueTLCBlockFcn("Start", 1, 42, 1, 0)
+%assign tlcStartFcnOfS1B43 = OpaqueTLCBlockFcn("Start", 1, 43, 1, 0)
+%assign tlcStartFcnOfS1B44 = OpaqueTLCBlockFcn("Start", 1, 44, 1, 0)
+%assign tlcStartFcnOfS1B45 = OpaqueTLCBlockFcn("Start", 1, 45, 1, 0)
+%assign tlcStartFcnOfS1B46 = OpaqueTLCBlockFcn("Start", 1, 46, 1, 0)
+%assign tlcStartFcnOfS1B47 = OpaqueTLCBlockFcn("Start", 1, 47, 1, 0)
+%assign tlcStartFcnOfS1B48 = OpaqueTLCBlockFcn("Start", 1, 48, 1, 0)
+%assign tlcStartFcnOfS1B49 = OpaqueTLCBlockFcn("Start", 1, 49, 1, 0)
+%assign tlcStartFcnOfS1B50 = OpaqueTLCBlockFcn("Start", 1, 50, 1, 0)
+%assign tlcStartFcnOfS1B57 = OpaqueTLCBlockFcn("Start", 1, 57, 1, 0)
+%<SLibCG_TrackParam(1)>\
+%<SLibCG_TrackBlockIO(1)>\
+rtB.ngb1xbkq3y = rtP.rollrad_Value;
+rtB.by2dkkjnhl = rtP.dotrollrads_Value;
+rtB.g5xjgixi3f = rtP.pitchrad_Value;
+rtB.hedpbqrh40 = rtP.dotpitchrads_Value;
+rtB.jtkzosto0m = rtP.yawrad_Value;
+rtB.dmmvb3hosf = rtP.dotyawrads_Value;
+rtB.lw5vmu4dcz = rtP.zm_Value;
+rtB.hkniup53ye = rtP.dotzms_Value;
+rtB.ijtlj53uty = rtP.xm_Value;
+rtB.it02ljnrvr = rtP.dotxms_Value;
+rtB.kbfddoze5v = rtP.ym_Value;
+rtB.hrmltopjrk = rtP.dotyms_Value;
+%<tlcStartFcnOfS1B1>\
+%<tlcStartFcnOfS1B2>\
+%<tlcStartFcnOfS1B3>\
+%<tlcStartFcnOfS1B4>\
+%<tlcStartFcnOfS1B15>\
+%<tlcStartFcnOfS1B16>\
+%<tlcStartFcnOfS1B17>\
+%<tlcStartFcnOfS1B18>\
+%<tlcStartFcnOfS1B19>\
+%<tlcStartFcnOfS1B20>\
+%<tlcStartFcnOfS1B21>\
+%<tlcStartFcnOfS1B22>\
+%<tlcStartFcnOfS1B23>\
+%<tlcStartFcnOfS1B24>\
+%<tlcStartFcnOfS1B25>\
+%<tlcStartFcnOfS1B26>\
+%<tlcStartFcnOfS1B27>\
+%<tlcStartFcnOfS1B28>\
+%<tlcStartFcnOfS1B29>\
+%<tlcStartFcnOfS1B30>\
+%<tlcStartFcnOfS1B31>\
+%<tlcStartFcnOfS1B32>\
+%<tlcStartFcnOfS1B33>\
+%<tlcStartFcnOfS1B34>\
+%<tlcStartFcnOfS1B35>\
+%<tlcStartFcnOfS1B36>\
+%<tlcStartFcnOfS1B37>\
+%<tlcStartFcnOfS1B38>\
+%<tlcStartFcnOfS1B39>\
+%<tlcStartFcnOfS1B40>\
+%<tlcStartFcnOfS1B41>\
+%<tlcStartFcnOfS1B42>\
+%<tlcStartFcnOfS1B43>\
+%<tlcStartFcnOfS1B44>\
+%<tlcStartFcnOfS1B45>\
+%<tlcStartFcnOfS1B46>\
+%<tlcStartFcnOfS1B47>\
+%<tlcStartFcnOfS1B48>\
+%<tlcStartFcnOfS1B49>\
+%<tlcStartFcnOfS1B50>\
+%<tlcStartFcnOfS1B57>\
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Start(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(1, 0, fcnProtoType)>
+%endfunction

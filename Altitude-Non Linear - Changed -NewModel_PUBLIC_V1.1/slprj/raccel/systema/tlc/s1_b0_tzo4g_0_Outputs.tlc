@@ -1,0 +1,12 @@
+%implements s1_b0_tzo4g_0_Outputs "C"
+
+%function Outputs(block, system) Output
+%<SLibGenerateExtModeOutput(system)>
+ssCallAccelRunBlock(%<(RTMGetModelSS())>, 1, 32, SS_CALL_MDL_OUTPUTS);
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void l3pwqpalw0(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 0, fcnProtoType)>
+%endfunction

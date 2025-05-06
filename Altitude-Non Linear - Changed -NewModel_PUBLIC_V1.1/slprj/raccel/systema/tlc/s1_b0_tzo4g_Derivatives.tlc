@@ -1,0 +1,34 @@
+%implements s1_b0_tzo4g_Derivatives "C"
+
+%function Derivatives(block, system) Output
+%assign tlcDerivativesFcnOfS1B0 = OpaqueTLCBlockFcn("Derivatives", 1, 0, 1, 4)
+%assign tlcDerivativesFcnOfS1B51 = OpaqueTLCBlockFcn("Derivatives", 1, 51, 1, 4)
+%assign tlcDerivativesFcnOfS1B52 = OpaqueTLCBlockFcn("Derivatives", 1, 52, 1, 4)
+%assign tlcDerivativesFcnOfS1B53 = OpaqueTLCBlockFcn("Derivatives", 1, 53, 1, 4)
+%assign tlcDerivativesFcnOfS1B54 = OpaqueTLCBlockFcn("Derivatives", 1, 54, 1, 4)
+%<SLibCG_TrackContStatesDerivative(1)>\
+_rtXdot = %<(SLibCG_SE(SLibGetContStatesDerivativeStructPtr()))>;
+%<SLibCG_TrackBlockIO(1)>\
+%<tlcDerivativesFcnOfS1B0>\
+_rtXdot->hvq401s3w1[0] = rtB.nfxjmesnyx[0];
+_rtXdot->hvq401s3w1[1] = rtB.nfxjmesnyx[1];
+_rtXdot->hvq401s3w1[2] = rtB.nfxjmesnyx[2];
+_rtXdot->f0u4dwm54j = rtB.oldc0rqqvg[0];
+%<tlcDerivativesFcnOfS1B51>\
+%<tlcDerivativesFcnOfS1B52>\
+%<tlcDerivativesFcnOfS1B53>\
+%<tlcDerivativesFcnOfS1B54>\
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Derivatives(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(1, 4, fcnProtoType)>
+
+%assign localVarDecl = ""
+%openfile localVarDecl
+XDot *_rtXdot;
+
+%closefile localVarDecl
+%<LibSetSystemField(system, "CachedDerivativeLocalVars", localVarDecl)>
+%endfunction

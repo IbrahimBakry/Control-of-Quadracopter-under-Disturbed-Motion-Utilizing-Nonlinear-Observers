@@ -14,13 +14,14 @@ This research is a Bc.S. graduation project explores a novel approach to rejecti
      
 ![مقارنة خطأ الراصد في الراصد الخطي واللاخطي](https://github.com/user-attachments/assets/ced9770c-7723-4c80-a5b7-b150dce18f16)
 ![مقارنة خطأ الراصد في حالة وجود الإضطراب وعدم وجوده (حمولة 2g)](https://github.com/user-attachments/assets/3a92bf55-1f80-4573-9ab7-a21eccc6f368)
-
+![مقارنة الإرتفاع في الراصد الخطي واللاخطي](https://github.com/user-attachments/assets/80980f95-0ced-4358-bf76-c8bba45f6589)
 
 3. **Disturbance Testing**:  
    - Applied external disturbances (simulating **1.5g and 2g weight increases**).  
    - The system **quickly rejected disturbances**, maintaining stability with minimal performance degradation.  
 
-![مقارنة الإرتفاع في الراصد الخطي واللاخطي](https://github.com/user-attachments/assets/80980f95-0ced-4358-bf76-c8bba45f6589)
+![مقارنة خطأ الحالة الدائمة في حالة وجود الإضطراب وعدم وجوده](https://github.com/user-attachments/assets/4fa28baa-1162-4675-95b5-f8b5213ed430)
+![مقارنة خطأ الحالة الدائمة في حالة وجود الإضطراب وعدم وجوده (حمولة 2g)](https://github.com/user-attachments/assets/a47978c1-a1e7-49a2-b0a1-3638723c9662)
 
 
 4. **Control Strategy**:  
